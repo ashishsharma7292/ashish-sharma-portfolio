@@ -6,12 +6,7 @@ export default function Skills() {
   return (
     <section id="skills" aria-labelledby="skills-title" className="bg-night py-24 text-paper md:py-36">
       <div className="mx-auto max-w-6xl px-5 md:px-8">
-        <Reveal className="mb-12 md:mb-16">
-          <p className="font-mono text-xs uppercase tracking-[0.18em] text-[#c4a5ee]">04 — Skills & expertise</p>
-          <h2 id="skills-title" className="mt-3 max-w-3xl font-display text-3xl font-medium leading-[1.1] tracking-tight md:text-5xl">
-            The toolkit behind the systems.
-          </h2>
-        </Reveal>
+        <SectionHeading id="skills-title" kicker="04 — Skills & expertise" title="The toolkit behind the systems."/>
 
         <div className="grid gap-x-12 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
           {skills.map((g, i) => (
